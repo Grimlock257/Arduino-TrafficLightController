@@ -3,6 +3,17 @@ For the 'Embedded Systems' strand of my 'Systems Technology' module at Nottingha
 
 To develop this system I used an Elegoo Uno R3 along with components (listed [here](#parts-list "Parts List")). My solution to this problem goes beyond the core requirements for the coursework piece, as it implemented a class, enum, and uses a 7 segment display and 8 bit shift register.
 
+# Running the program
+I have not yet finished the wiring diagram for this project. You can try and build the circuit from the below image / using the code if you wish.
+
+1. Launch TLC.ino using Arduino IDE or other IDE that supports Arduino
+2. Select the correct Arduino board type (for this project I used Arduino Uno)
+3. Select the correct COM port
+4. Compile & upload the program to the Arduino board
+5. Should work!
+
+![Circuit image](https://i.imgur.com/Kwn7Fjp.jpg)
+
 # Problem Specification
 The TLC needed to be able to function in 3 distinct modes, outlined below:
 1. Regular Mode - Three LEDs should alternate (only 1 LED on at a time) to simulate a traffic light, the three colours being red, yellow and green. The sequence is:
